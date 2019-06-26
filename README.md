@@ -15,4 +15,4 @@ Searches a directory to find if there are duplicate images
 If there is an error that says *opencv.pc* not found. 
 Follow the steps below.
 
-* Add the following line of code into your `.bash_profile` file
+- Add the following line of code into your `.bash_profile` file
