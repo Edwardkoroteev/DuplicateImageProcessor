@@ -12,9 +12,6 @@ Searches a directory to find if there are duplicate images
 `pkg-config --cflags --libs opencv`
 
 **If an error occurs**
-If there is an error that says *opencv.pc* not found. 
-Follow the steps below.
-
 1. Add the following line of code into your `.bash_profile` file.
    1. `export PKG_CONFIG_PATH="/usr/local/Cellar/opencv/YOUR_VERSION/lib/pkgconfig/"`.
 2. Change into directory.
