@@ -16,6 +16,8 @@ If there is an error that says *opencv.pc* not found.
 Follow the steps below.
 
 1. Add the following line of code into your `.bash_profile` file.
-   1. `export PKG_CONFIG_PATH="/usr/local/Cellar/opencv/YOUR_VERSION/lib/pkgconfig/"`
-2. Change into directory
-   1. `cd /usr/local/Cellar/opencv/YOUR_VERSION/lib/pkgconfig/`
+   1. `export PKG_CONFIG_PATH="/usr/local/Cellar/opencv/YOUR_VERSION/lib/pkgconfig/"`.
+2. Change into directory.
+   1. `cd /usr/local/Cellar/opencv/YOUR_VERSION/lib/pkgconfig/`.
+3. Make sure an `opencv.pc` file is there. If it is similar but named differently. Rename the file to `opencv.pc`.
+4. Log out. Log in to reset `.bash_history`.
