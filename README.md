@@ -17,4 +17,4 @@ Searches a directory to find if there are duplicate images
 2. Change into directory.
    1. `cd /usr/local/Cellar/opencv/YOUR_VERSION/lib/pkgconfig/`.
 3. Make sure an `opencv.pc` file is there. If it is similar but named differently. Rename the file to `opencv.pc`.
-4. Log out. Log in to reset `.bash_history`.
+4. Log out. Log in to reset `.bash_profile`.
