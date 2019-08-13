@@ -2,7 +2,7 @@
 # https://gist.github.com/kevinhughes27/5311609
 
 CC = g++
-CFLAGS = -g -Wall -std=c++11
+CFLAGS = -g -Wall -std=c++17
 SRCS = main.cpp
 PROG = output
 
