@@ -1,7 +1,5 @@
-#  Copyright (c) 2019 Edwardkoroteev
-#  This program is released under the MIT License
-#  Please see the file 'LICENSE' in this distribution for
-#  license terms.
+# MAKEFILE EXAMPLE USED FROM kevinhughes27 AND WAS MODIFIED
+# https://gist.github.com/kevinhughes27/5311609
 
 CC = g++
 CFLAGS = -g -Wall -std=c++17
