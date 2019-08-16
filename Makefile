@@ -3,8 +3,8 @@
 
 CC = g++
 CFLAGS = -g -Wall -std=c++17
-SRCS = main.cpp
-PROG = output
+SRCS = src/main.cpp src/imageDuplicateProcess.cpp
+PROG = imageDuplicateProcessor
 
 OPENCV = `pkg-config --cflags --libs opencv`
 LIBS = $(OPENCV)
