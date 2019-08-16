@@ -1,5 +1,8 @@
+# Author
+Edward Koroteev
+
 # DuplicateImageProcessor
-Searches a directory to find if there are duplicate images
+Searches through the path provided by user to find duplicate images. Only JPEG and PNG image file formats work with the program. As the duplicate images are found, they are going to be moved into a directory of which you will provide the path for. 
 
 # Installation
 ###### Installing Homebrew
@@ -18,3 +21,10 @@ Searches a directory to find if there are duplicate images
    1. `cd /usr/local/Cellar/opencv/YOUR_VERSION/lib/pkgconfig/`.
 3. Make sure an `opencv.pc` file is there. If it is similar but named differently. Rename the file to `opencv.pc`.
 4. Log out. Log in to reset `.bash_profile`.
+
+# Running
+###### Move to the root of this repo
+###### To Compile
+`Type make`
+###### To Run
+`./imageDuplicateProcessor`
