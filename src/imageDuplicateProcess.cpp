@@ -154,7 +154,7 @@ bool moveFile(string from, string to)
 
   if(rename(from.c_str(), pathTo.c_str()) != 0)
   {
-    cout << "Cannot delete: " << from << endl;
+    cout << "Cannot move: " << from << endl;
     return false;
   }
   return true;
@@ -228,7 +228,6 @@ bool getPathName(vector<string> &imgPathsJpg, vector<string> &imgPathsPng, strin
   }
   else
   {
-    cout << "Unable to access path" << endl;
     return false;
   }
 
